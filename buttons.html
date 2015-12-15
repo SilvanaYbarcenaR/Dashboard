@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Dashboard">
+    <meta name="keyword" content="Dashboard, Bootstrap, Admin, Template, Theme, Responsive, Fluid, Retina">
+
+    <title>Adventure time: Dashboard</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <link href="css/adventure-time-theme.css" rel="stylesheet">
+    <link href="css/adventure-time-theme-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+  <!--Inserta tu codigo aqui-->
+   <div id="container">
+      <div class="header black-bg">
+        <div class="sidebar-toggle-box">
+          <div class="fa fa-bars"></div>
+        </div>
+        <a href="dashboard.html" class="logo">
+          <b class="hidden-xs">ADVENTURE TIME:DASHBOARD</b>
+          <b class="visible-xs">ADV. TIME</b>
+        </a>
+          <ul class="top-menu pull-right">
+            <li><a class="logout" href="login.html">Logout</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div id="sidebar">
+        <ul class="sidebar-menu">
+          <li><div class="text-center"><img src="img/profile_avatar.png" alt="" class="img-circle"><h5>Bonnibel Bubblegum<h5></div></li>
+          <li><a href="dashboard.html"><i class="fa fa-tachometer"></i>Dashboard</a></li>
+          <li><a href="buttons.html" class="active"><i class="fa fa-desktop"></i>Buttons</a></li>
+          <li><a href="progress.html"><i class="fa fa-desktop"></i>Progress Bar</a></li>
+          <li><a href="form_component.html"><i class="fa fa-cogs"></i>Forms</a></li>
+          <li><a href="basic_tables.html"><i class="fa fa-th"></i>Date Tables</a></li>
+          <li><a href="gallery.html"><i class="fa fa-tasks"></i>Gallery</a></li>
+          <li><a href="login.html"><i class="fa fa-book"></i>Login Page</a></li>
+        </ul>
+      </div><!--Fin primera sección (sidebar-menu)-->
+      <div id="main-content">
+        <div class="wrapper">
+          <div class="mt"></div>
+          <div class="row">
+            <div class="col-md-6">
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Basic Buttons</h4>
+                <button type="button" class="btn-default btn">Default</button>
+                <button type="button" class="btn-primary btn">Primary</button>
+                <button type="button" class="btn-success btn">Success</button>
+                <button type="button" class="btn-info btn">Info</button>
+                <button type="button" class="btn-warning btn">Warning</button>
+                <button type="button" class="btn-danger btn">Danger</button>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Buttons Round</h4>
+                <button type="button" class="btn-default btn btn-round">Default</button>
+                <button type="button" class="btn-primary btn btn-round">Primary</button>
+                <button type="button" class="btn-success btn btn-round">Success</button>
+                <button type="button" class="btn-info btn btn-round">Info</button>
+                <button type="button" class="btn-warning btn btn-round">Warning</button>
+                <button type="button" class="btn-danger btn btn-round">Danger</button>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Theme Buttons</h4>
+                <button type="button" class="btn-theme btn">Theme</button>
+                <button type="button" class="btn-theme btn">Theme 02</button>
+                <button type="button" class="btn-theme btn">Theme 03</button>
+                <button type="button" class="btn-theme btn">Theme 04</button>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Buttons Group</h4>
+                <div class="btn-group">
+                  <button type="button" class="btn-default btn">Left</button>
+                  <button type="button" class="btn-default btn">Middle</button>
+                  <button type="button" class="btn-default btn">Right</button>
+                </div>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Button Nesting</h4>
+                <div class="btn-group">
+                  <button type="button" class="btn-default btn">1</button>
+                  <button type="button" class="btn-default btn">2</button>
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Dropdown <span class="caret"></span></button>
+                      <ul class="dropdown-menu" role="menu">
+                        <li><a role="menuitem" tabindex="-1" href="#">Dropdown 1</a></li>
+                        <li><a role="menuitem" tabindex="-1" href="#">Dropdown 2</a></li>
+                      </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Split Buttons</h4>
+                <div class="btn-group">
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Action</button>
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown"><span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                      </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Buttons Sizes</h4>
+                  <p><button type="button" class="btn-primary btn btn-lg">Large button</button>
+                     <button type="button" class="btn-default btn btn-lg">Large button</button></p>
+                  <p><button type="button" class="btn-primary btn">Default button</button>
+                     <button type="button" class="btn-default btn">Default button</button></p>
+                  <p><button type="button" class="btn-primary btn btn-sm">Small button</button>
+                     <button type="button" class="btn-default btn btn-sm">Small button</button></p>
+                  <p><button type="button" class="btn-primary btn btn-xs">Extra small button</button>
+                     <button type="button" class="btn-default btn btn-xs">Extra small button</button></p>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Block Buttons</h4>
+                  <button type="button" class="btn-primary btn btn-block">Block level button</button>
+                  <button type="button" class="btn-default btn btn-block">Block level button</button>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Justify Buttons</h4>
+                <div class="btn-group btn-group-justified">
+                  <div class="btn-group"><button type="button" class="btn-theme btn">Left</button></div>
+                  <div class="btn-group"><button type="button" class="btn-theme btn">Middle</button></div>
+                  <div class="btn-group"><button type="button" class="btn-theme btn">Right</button></div>
+                </div>
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Dropdown Buttons</h4>
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                      </ul>
+                  <button type="button" class="btn dropdown-toggle" data-toggle="dropdown">Action <span class="caret"></span></button>
+                      <ul class="dropdown-menu">
+                          <li><a href="#">Action</a></li>
+                          <li><a href="#">Another action</a></li>
+                          <li><a href="#">Something else here</a></li>
+                          <li role="separator" class="divider"></li>
+                          <li><a href="#">Separated link</a></li>
+                      </ul>  
+              </div>
+              <div class="showback">
+                <h4><i class="fa fa-angle-right"></i> Buttons with Icons</h4>
+                  <button type="button" class="btn-theme btn"><i class="fa fa-cog"></i> Button</button>
+                  <button type="button" class="btn-theme btn"><i class="fa fa-check"></i> Button</button>
+                  <button type="button" class="btn-theme btn"><i class="fa fa-heart"></i> Button</button>
+              </div>
+          </div>
+        </div>
+      </div>
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/common-scripts.js"></script>
+  </body>
+</html>
